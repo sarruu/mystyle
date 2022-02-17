@@ -1,0 +1,127 @@
+:root{
+	--primary: #790479;
+}
+
+body{
+	font-family: 'Shizuru', cursive;
+	margin: 0;
+	padding: 0;
+}
+header{
+	    background: rgb(149,170,99);
+background: linear-gradient(90deg, rgba(149,170,99,1) 0%, rgba(169,199,172,1) 100%);
+		color: whitesmoke;
+		font-family: serif;
+		size: 30px;
+}
+.container{
+	width: 1200px;
+	margin: auto;
+}
+.flex{
+	display: flex;
+}
+.logo{
+	flex-basis: 30%;
+}
+nav{
+	flex-basis: 70%;
+}
+nav ul{
+	display: flex;
+	justify-content: flex-end;
+    list-style: none;
+}
+
+header nav a{
+	color: floralwhite;
+	font-family: serif;
+	text-decoration: none;
+	font-size: 20px;
+	padding: 8px;
+}
+
+header nav a:hover{
+	color: var(--primary);
+}
+header. logo a{
+	    font-family: 'Roboto Serif', sans-serif;
+        color: var(--primary);
+}
+
+.banner-section{
+    padding: 50px;
+}
+
+.banner-section img{
+    /*height: 420px;*/
+    width: 820px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: auto;
+    display: block;
+}
+
+.feature-section{
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+.feature{
+	padding: 43px;
+	text-align: center;
+	margin: 20px;
+	border-radius: 10px;
+
+}
+.feature h2{
+	font-size: 24px;
+	margin: 0px;
+}
+.feature p{
+	font-size: 20px;
+	margin: 0;
+	padding-top: 5px;
+}
+
+.color1{background-color: #fee79a;}
+.color2{background-color: #f2ebdd;}
+.color3{background-color: #796b4ade;}
+
+.aboutme section{
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.aboutme{
+	flex-basis: 30%;
+	padding: 30px;
+}
+
+.aboutme h2{
+	margin: 0;
+	font-size: 40px;
+}
+.aboutme span{
+	color: brown;
+	text-transform: uppercase;
+}
+.aboutme p{
+	font-size: 24px;
+	font-weight: 500;
+	margin: 0;
+}
+
+.mypicture{
+	flex-basis: 40%;
+	padding: 30px;
+}
+
+.mypicture img{
+    width: 60%;
+    border-radius: 15px;
+    box-shadow: 15px 15px 11px 0px rosybrown;
+}
+
+.video section{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
